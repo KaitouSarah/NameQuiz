@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NameQuiz2</string>
+    <string name="text_placeholder_card">Placeholder text</string>
+    <string name="btn_add_img">Add image</string>
+    <string name="txt_name_hint">Enter name..</string>
+    <string name="btn_save_person">Save</string>
+    <string name="btn_start_quiz">Start quiz</string>
+    <string name="btn_go_to_archive">Go to archive</string>
+    <string name="highscore">Highscore: </string>
+    <string name="last_score">Last score: </string>
+</resources>
