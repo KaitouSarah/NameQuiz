@@ -67,11 +67,11 @@
             android:layout_alignTop="@id/btn_delete_card"
             android:id="@+id/btn_edit_username"
 
-            app:layout_constraintStart_toEndOf="@+id/textview_username"
+            app:layout_constraintStart_toEndOf="@+id/txt_username"
             android:layout_marginStart="8dp" android:layout_marginEnd="8dp"
             app:layout_constraintEnd_toEndOf="@+id/btn_capture_photo" android:layout_marginTop="8dp"
             app:layout_constraintTop_toTopOf="@+id/btn_capture_photo"
-            app:layout_constraintBottom_toBottomOf="@+id/textview_username" app:layout_constraintHorizontal_bias="0.095"
+            app:layout_constraintBottom_toBottomOf="@+id/txt_username" app:layout_constraintHorizontal_bias="0.095"
             app:layout_constraintVertical_bias="1.0" android:layout_marginBottom="4dp"/>
     <android.support.design.widget.FloatingActionButton
             android:layout_width="wrap_content"
@@ -101,7 +101,7 @@
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textview_username" tools:text="Obi-Wan Kenobi"
+            android:id="@+id/txt_username" tools:text="Obi-Wan Kenobi"
             android:textColor="@color/text_light_grey" android:textSize="25sp"
             app:layout_constraintStart_toStartOf="@+id/btn_capture_photo"
             app:layout_constraintEnd_toEndOf="@+id/btn_capture_photo" app:layout_constraintHorizontal_bias="0.17"
@@ -112,36 +112,14 @@
             android:id="@+id/textView_highscore" app:layout_constraintEnd_toEndOf="@+id/btn_capture_photo"
             app:layout_constraintStart_toStartOf="@+id/btn_capture_photo" app:layout_constraintHorizontal_bias="0.107"
             android:textSize="20sp" android:textColor="@color/text_light_grey" android:text="@string/highscore"
-            android:layout_marginTop="56dp" app:layout_constraintTop_toBottomOf="@+id/textview_username"/>
+            android:layout_marginTop="56dp" app:layout_constraintTop_toBottomOf="@+id/txt_username"/>
     <TextView
             android:text="@string/last_score"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textview_last_score" app:layout_constraintStart_toStartOf="@+id/btn_capture_photo"
+            android:id="@+id/txt_last_score" app:layout_constraintStart_toStartOf="@+id/btn_capture_photo"
             app:layout_constraintEnd_toEndOf="@+id/btn_capture_photo" app:layout_constraintHorizontal_bias="0.1"
             android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="@+id/btn_capture_photo"
             android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/textView_highscore"
             android:textSize="20sp" android:textColor="@color/text_light_grey"/>
-    <TextView
-            android:text="-"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textview_highscore_result" android:textSize="20sp"
-            android:textColor="@color/text_light_grey" app:layout_constraintStart_toEndOf="@+id/textView_highscore"
-            android:layout_marginStart="8dp" android:layout_marginTop="8dp"
-            app:layout_constraintTop_toBottomOf="@+id/textview_username" android:layout_marginEnd="8dp"
-            app:layout_constraintEnd_toEndOf="@+id/btn_capture_photo" android:layout_marginBottom="8dp"
-            app:layout_constraintBottom_toTopOf="@+id/textview_last_score_result"
-            app:layout_constraintVertical_bias="0.461"
-            app:layout_constraintHorizontal_bias="0.078"/>
-    <TextView
-            android:text="-"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textview_last_score_result" android:textSize="20sp"
-            android:textColor="@color/text_light_grey" app:layout_constraintStart_toEndOf="@+id/textview_last_score"
-            android:layout_marginStart="8dp" android:layout_marginEnd="8dp"
-            app:layout_constraintEnd_toEndOf="@+id/btn_capture_photo" android:layout_marginBottom="64dp"
-            app:layout_constraintBottom_toBottomOf="@+id/btn_capture_photo"
-            app:layout_constraintHorizontal_bias="0.084"/>
 </android.support.constraint.ConstraintLayout>

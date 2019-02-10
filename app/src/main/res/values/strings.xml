@@ -8,4 +8,5 @@
     <string name="btn_go_to_archive">Go to archive</string>
     <string name="highscore">Highscore: </string>
     <string name="last_score">Last score: </string>
+    <string name="loading_splash">Loading...</string>
 </resources>

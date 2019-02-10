@@ -121,7 +121,6 @@ class PersonListAdapter(private val list: ArrayList<Person>?,
                     //Do nothing
                 }
             }
-
         }
 
     }
